@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pro Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+
+    <div class="display">
+        <input type="text" id="result" readonly />
+    </div>
+
+    <div class="buttons">
+
+        <!-- Top Row -->
+        <button class="operator" data-value="C">C</button>
+        <button class="operator" data-value="back">⌫</button>
+        <button class="operator" data-value="/">÷</button>
+        <button class="operator" data-value="*">×</button>
+
+        <!-- Numbers -->
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button class="operator" data-value="-">−</button>
+
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button class="operator" data-value="+">+</button>
+
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+
+        <!-- Equal spans 2 columns -->
+        <button class="equal" data-value="=">=</button>
+
+        <button data-value="0">0</button>
+        <button data-value=".">.</button>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
